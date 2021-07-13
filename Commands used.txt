@@ -1,0 +1,19 @@
+
+git config --global user.name Asfia
+git config --global user.emal khannn
+touch .getignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status #just to see
+git remote add origin<ssh url.git>
+generate key search in google.copy the key and paste on bash
+you will get a path
+cat paste this path 
+you will get a descrition.go to github settings ssh key and paste this.
+git push origin master(if shows fatal: Could not read from remote repository.)
+go to account settings-developer settings-personal token.write push token 
+check boxes.then will get a url.copy that.and before pasting add your https resporitary code
+before @github.com then enter
+git push origin master
+
